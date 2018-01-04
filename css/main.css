@@ -6,8 +6,25 @@ body {
 }
 .banner {
   position: relative;
+  max-height: 500px;
 }
 .content {
   position: absolute;
   bottom: 0;
+  max-width: 45em;
+}
+
+h2 {
+  font-family: 'Roboto Condensed';
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+.btn-big {
+  font-family: "Roboto";
+  font-size: 1.5rem;
 }
