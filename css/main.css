@@ -1,9 +1,19 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+}
+
 body {
   margin: 0;
 }
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 .banner {
@@ -21,12 +31,13 @@ body {
 
 .logo {
   float: left;
-  width: 50%;
+  width: 33.33%;
+  height: auto;
 }
 
 .text {
   float: right;
-  width: 50%;
+  width: 66.66%;
 }
 
 h2 {
@@ -45,7 +56,7 @@ p {
   color: #fff;
   background-color: #303030;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px 15px;
   border-radius: 10px;
 }
 
