@@ -23,6 +23,7 @@ body {
 
 .content {
   position: absolute;
+  width: 100%;
   max-width: 45em;
   padding: 0 1rem;
   bottom: 1rem;
@@ -61,6 +62,6 @@ p {
   border-radius: 10px;
 }
 
-.btn-big:hover {
+.btn:hover .btn-big {
   background-color: #000;
 }
