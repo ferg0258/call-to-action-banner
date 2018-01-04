@@ -5,7 +5,6 @@ html {
   *, *::before, *::after {
     box-sizing: inherit;
   }
-}
 
 body {
   margin: 0;
@@ -27,6 +26,8 @@ body {
   max-width: 45em;
   padding: 0 1rem;
   bottom: 1rem;
+  transform: translateX(-50%);
+  left: 50%;
 }
 
 .logo {
