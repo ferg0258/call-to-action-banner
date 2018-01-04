@@ -52,11 +52,14 @@ p {
   font-size: 1.5rem;
 }
 
-.btn-big {
+.btn {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   color: #fff;
   background-color: #303030;
+}
+
+.btn-big {
   text-decoration: none;
   padding: 20px 15px;
   border-radius: 10px;
