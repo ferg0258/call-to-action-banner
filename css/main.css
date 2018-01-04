@@ -65,6 +65,6 @@ p {
   border-radius: 10px;
 }
 
-.btn:hover .btn-big {
+.btn:hover {
   background-color: #000;
 }
