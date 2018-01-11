@@ -73,3 +73,9 @@ p {
 .btn:hover {
   background-color: #000;
 }
+
+@media only screen and (min-width: 60em) {
+  .content {
+    top: 15%;
+  }
+}
