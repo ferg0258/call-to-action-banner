@@ -25,8 +25,8 @@ body {
   position: absolute;
   width: 100%;
   max-width: 45em;
-  padding: 0 1rem;
-  top: 15%;
+  padding: 0 1rem 0 0;
+  top: 0%;
   transform: translateX(-50%);
   left: 50%;
 }
@@ -47,6 +47,8 @@ body {
 h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 p {
