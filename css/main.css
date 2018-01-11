@@ -42,6 +42,7 @@ body {
 .text {
   float: right;
   width: 60%;
+  padding-left: 10px;
 }
 
 h2 {
